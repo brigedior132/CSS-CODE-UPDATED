@@ -1,0 +1,7 @@
+ h1{ 
+    /* EXTRENAL CSS 2nd prority after inline */
+    color:yellow; 
+ }
+ p{
+    color:rgb(21, 255, 0);
+ }

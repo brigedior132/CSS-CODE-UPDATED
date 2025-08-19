@@ -1,0 +1,30 @@
+h1::first-letter{
+    background-color:green;
+}
+/* first line selector */
+
+#one::first-line{
+    background-color:rgb(186, 26, 125);
+}
+/* marker selector */
+ul li::marker{
+    content:'😍';
+    background-color:rgb(149, 28, 131)
+}
+
+/* after selector */
+.ONE::after{
+    content:'I AM AFTER ELEMENT';
+    background-color:yellow;
+}
+
+/* before selector */
+#TWO::BEFORE{
+    content:'I AM BEFORE ELEMENT';
+    background-color:rgb(0, 229, 255);
+    
+}
+
+p{
+    background-color: rgb(13, 107, 119);
+}

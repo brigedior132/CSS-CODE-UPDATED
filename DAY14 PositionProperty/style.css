@@ -1,0 +1,70 @@
+*{
+    padding:0px;
+    color:black;
+}
+div{
+    position:static;
+    display: inline-block;
+}
+#a{
+    position:static;
+    height:100px;
+    width:100px;
+    background-color: rgb(141, 17, 126);
+    position:static;
+    top:300px;
+    z-index:-2px;
+
+
+}
+#b{
+    height:100px;
+    width:100px;
+    background-color: rgb(9, 102, 40);
+    position: relative;
+    top:20px;
+    left:10px;
+    z-index:3;
+    
+
+
+}
+#c{
+    height:100px;
+    width:100px;
+    background-color: rgb(174, 77, 83);
+    position:absolute; /*display according to ansestor or web*/
+    /* top:40px; */
+    right:50px;
+    bottom:0px;
+    
+}
+#d{
+    height:100px;
+    width:100px;
+    background-color: rgb(23, 95, 111);
+    position:fixed;
+    top:0px;
+
+}
+#e{
+    background-color:blue;
+    height:100px;
+    width:100px;
+    position:sticky;
+    top:0px;
+}
+#A{
+    height:100px;
+    width:100px;
+    background-color:blueviolet;
+    position: relative;
+    z-index:-3px;
+}
+#B{
+    height:100px;
+    width:100px;
+    background-color:brown;
+    z-index:4px;
+    
+}

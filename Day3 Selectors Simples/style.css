@@ -1,0 +1,22 @@
+p{
+    color:blueviolet;
+}
+.A{
+    color:rgb(255, 0, 153);
+}
+/* id selector */
+#one{
+    color:grey;
+}
+#two{
+    color:aqua
+}
+/* grouping selector */
+p,p{
+    color:blue
+}
+
+/* universal selector */
+*{
+    color:yellow
+}

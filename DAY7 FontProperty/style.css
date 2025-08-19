@@ -1,0 +1,26 @@
+#one{
+    font-style: italic;
+    background-color: blue;
+}
+
+p{
+    font-weight:bold;
+    font-size:20px;
+}
+h1{
+    font-weight: 100;
+    background-color: aqua;
+}
+#two{
+    font-weight: 100;
+    background-color: blueviolet;
+    font-variant:small-caps;
+}
+p{
+    font-variant:inherit;
+    background-color: yellowgreen;
+}
+h2{
+    font-variant: small-caps;
+    background-color: brown;;
+}

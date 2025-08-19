@@ -1,0 +1,30 @@
+ Article p{
+    /* Desendent selector */
+    background-color:blueviolet;
+}
+
+/* Direct child selector */
+
+Article > p{
+    background-color:yellow;
+}
+
+/* GeneralSibling selector */
+
+Article ~ div{
+    background-color:blue
+}
+
+/* Adjacent selector */
+Article + div{
+    background-color:aqua;
+}
+
+/* Generalsibling */
+Article ~p{
+    background-color:green;;
+}
+
+Article ~span{
+    background-color: grey;
+}
