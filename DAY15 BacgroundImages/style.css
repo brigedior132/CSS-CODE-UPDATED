@@ -15,5 +15,6 @@ div{
 }
 body{
     background-image:url(image.png);
-    background-size: cover;
+    background-size:cover;
+    /* background-size: contain; */
 }

@@ -1,0 +1,15 @@
+div{
+    background-color:rgb(138, 154, 159);
+    height:200px;
+    width:200px;
+    background-image: url(image.png);
+    background-size:cover;
+    position:fixed;
+    top:0px;
+    margin-right: 300px;
+    color:white;
+    
+}
+p{
+    color:rgb(36, 94, 203);
+}
