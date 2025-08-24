@@ -1,0 +1,22 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:palevioletred;
+    transition:all 1s ease-in 2s ;
+    position:absolute;
+    top:100px;
+    left:100px;
+    /* transform:rotate(90deg); */
+     /* rotate:z 90deg; */
+     /* transform:scale(1); */
+}
+div:hover{
+      background-color:rgb(32, 215, 38);  
+     /* transform:scaley(2);  for small and big*/
+     /* transform:translateX(-200px); */
+     /* transform:translate(200px); move krane ke liye*/
+     /* transform:translate(300px,500px); */
+     transform:skew(90deg);
+
+
+}

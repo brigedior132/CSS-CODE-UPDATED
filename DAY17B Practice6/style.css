@@ -1,5 +1,26 @@
 ul{
+    background-color:pink;
+    display:flex;
+    justify-content:space-evenly;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style-type:none;
+}
+.outer{
     height:200px;
-    width:200px;
-    flex-direction: column;
+    width:300px;
+    background-color:blueviolet;
+    display:flex;
+    justify-content:center;
+     align-items:center; 
+
+
+}
+.inner{
+    height:80px;
+    width:80px;
+    background-color:rgb(30, 213, 60);
 }
