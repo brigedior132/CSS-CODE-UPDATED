@@ -1,0 +1,61 @@
+div{
+    height:200px;
+    width:200px;
+    background-color:rgb(220, 36, 36);
+    position:absolute;
+    left:100px;
+    top:60px;
+    animation-name: color;
+    animation-duration:2s;
+    animation-timing-function:ease-in;
+    animation-delay:3s;
+    animation-iteration-count:infinite;
+    animation-direction:reverse;
+    border-radius:50%;
+    text-align:center;
+    border:2px solid greenyellow;
+}
+    @keyframes color{
+         0% {background-color:rgb(195, 19, 19);
+             left:700px;}
+
+         50%{background-color:aqua}
+        
+          100%{background-color:rgb(110, 45, 223);
+        right:0px;}
+    }
+    #one{
+        height:100px;
+        width:100px;
+        background-color:rgb(128, 0, 75);
+        position:absolute;
+        left:50px;
+        top:300px;
+        animation:box 2s ease-in 3s infinite alternate-reverse;
+        
+
+    }
+    @keyframes box{
+        from{background-color:yellow;
+            left:400px;
+            
+        }
+        
+        to{background-color:red;}
+    }
+    #two{
+        height:50px;
+        width:50px;
+        background-color:blue;
+        position:absolute;
+        left:20px;
+        top:10px;
+        animation:color 0.25s ease-in 0s infinite ;
+        border:2px solid black;
+    }
+    @keyframes color{
+        from{background-color:rgb(29, 214, 51);
+        }
+        to{background-color:red;}
+    }
+    
